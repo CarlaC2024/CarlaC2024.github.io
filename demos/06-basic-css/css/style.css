@@ -1,0 +1,23 @@
+#first-paragraph {
+    color: rgb(4, 27, 58);
+    background-color: aquamarine;
+}
+
+#second-paragraph {
+    color:cornflowerblue;
+    background-color:rgb(23, 31, 37)
+}
+
+#bold-paragraph {
+    font-weight: bold;
+    font-size: 40px;
+    font-style: italic;
+    font-family:sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+#link {
+    text-decoration: none;
+    color:blueviolet
+}

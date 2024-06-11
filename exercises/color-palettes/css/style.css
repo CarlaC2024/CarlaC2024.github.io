@@ -1,0 +1,28 @@
+#palette-1-heading {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#palette-1-color-1 {
+    background-color: #6DD3CE;
+    color:darkblue;
+    font-family: sans-serif;
+    text-align: right;
+    padding: 30px;   
+}
+
+#palette-1-color-2 {
+    background-color: darkgreen;
+    color:azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+#palette-1-color-3 {
+    background-color: rgb(225, 228, 50);
+    color:rgb(41, 15, 4);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    padding: 40px;
+}
