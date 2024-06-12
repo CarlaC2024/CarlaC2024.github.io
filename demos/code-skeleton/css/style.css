@@ -1,0 +1,13 @@
+.narrow {
+    width: 200px;
+    display: inline-block;
+    background-color: lightskyblue;
+}
+
+.green {
+    background-color: rgb(44, 94, 44);
+}
+
+.yellow {
+    background-color: khaki;
+}
