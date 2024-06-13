@@ -1,0 +1,14 @@
+div {
+    border: 17px double green;
+    margin: 24px  0px 80px 90px;
+    padding: 24px 20px;
+    background-color: lightblue;
+}
+
+p {
+    border: 20px solid rgb(255, 145, 0);
+    margin: 30px;
+    padding: 22px 10px;
+    background-color: antiquewhite;
+    border-radius: 44px 10px 200px 15px;
+}
