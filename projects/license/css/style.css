@@ -1,0 +1,87 @@
+.left-side {
+    display: inline-block;
+    border: 3px solid black;
+    width: 700px;
+    padding:24px;
+    border-radius: 40px;
+    background-color:peachpuff
+    
+}
+#left-side span,
+#rght-side span {
+    color: red;
+    font-weight: bold;
+}
+
+.right-side {
+    display: inline-block;
+    width: 34%
+    
+}
+
+#small-pic-container {
+    display: inline-block;
+}
+
+#data-fields {
+    display: inline-block;
+}
+
+#data-left {
+    display: inline-block;
+    color: blue;
+    
+}
+
+#data-right {
+    display: inline-block;
+    text-align: right;
+    color: blue;
+}
+
+
+#right-side img {
+    width:100px;
+    
+}
+
+#small-pic-container img {
+    width: 60px;
+}
+
+#small-pic-container {
+    display: inline-block;
+}
+
+#signature {
+    text-align: right;
+}
+
+#navbar {
+    text-align: center;
+    padding: 12px;
+    background-color:darkblue; 
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 
+    sans-serif;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+#doner{
+    display: inline-block;
+}
+
+#real-id {
+    display: inline-block;
+}
+
+h1 {
+    color: darkblue;
+}
+
+
+
