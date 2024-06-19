@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif; 
+}
+
+#two-columns {
+    display: flex;
+}
+
+#sidebar-content h2 {
+    background-color: white;
+    border:1px solid grey;
+    width: 300px 1;
+
+
+}
+
+#main-content {
+    background-color: white;
+    flex: 1;
+    order: 1;
+    padding: 40px;
+}
+
+img {
+    width:400px
+    
+}
+

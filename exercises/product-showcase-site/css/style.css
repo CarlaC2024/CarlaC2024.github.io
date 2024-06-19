@@ -1,19 +1,25 @@
-#navbar {
-    text-align: center;
+* {
+    box-sizing: border-box;
 }
 
-.single-column {
-    text-align: center;
+body {
+    margin: 0px;
+    font-family: sans-serif;
 }
-
 .single-column {
-    background-color: white;
-    width: 0%;
-    min-width: 500px;
-    max-width: 1000px;
+    background-color: orange;
+    width: 60%;
+    min-width: 0%;
     margin-left: auto;
-    margin-right:auto;
-    border: 5px solid orange;
-    color: orange;
+    margin-right: auto;
+    text-align: center;
+}
 
+.light-container {
+    background-color: orange;
+}
+
+.dark-container {
+   
+ 
 }
