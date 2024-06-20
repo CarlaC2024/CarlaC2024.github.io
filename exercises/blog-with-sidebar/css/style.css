@@ -52,8 +52,11 @@ body {
 }
 
 #main-content {
-    background-color: thistle;
+    background-color: rgb(108, 139, 238);
     grid-area: content;
-    padding: 0px 36px; 
+    padding: 0px 36px;
 }
 
+#main-content h2 {
+    text-align: center;
+}
