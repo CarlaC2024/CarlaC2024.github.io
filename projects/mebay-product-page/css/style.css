@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}    
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif; 
+}
+
+body {
+    background-color: #ffffff;
+    color:black
+}
+
+
+#three-columns {
+    margin: 48px 0px;
+    display: grid;
+    grid-template-columns: 1fr 200px 550px 200px 1fr;
+    grid-template-areas: 
+    ". left-sidebar main-area right-sidebar .";
+}
+
+#column-1 {
+    margin-left:100px;
+}    
+
+#column-2 {
+    padding: 24px 48px;
+    grid-area: main-area;
+    text-align: right;
+
+}
+
+#column-2 img {
+    border-radius: 50;
+}
+
+#column-3 {
+    margin-right: 24px;
+    grid-area: right-sidebar;
+}
+
+#three-columns h1 {
+    margin-top: 0px;
+}
+
+#three-columns h2,
+#three-columns h3 {
+    border-bottom: 2px solid #AAAAAA;
+    padding-bottom: 8px;
+}
+
+#three-columns ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#three-columns ul li {
+    padding: 4px 0px;
+    margin-right: 0px;
+    margin-left: 100px;
+}
+
+#three-columns ul a {
+    color:black;
+    text-decoration: none;
+}
+
+.sticky-sidebar img {
+    border-radius: 20%;
+    margin-left:0px;
+
+}
+
+#nike-large img {
+    padding: 0px;
+    margin: 40%;
+    margin-left:0%;
+    margin-right: 30%;
+    border-radius: 20px;
+}
+
+.sticky-sidebar-2 h2 {
+    margin-top: 35%;
+    display: inline-block;
+    width: 400px;
+   
+  
+   
+}
+
