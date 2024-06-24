@@ -18,7 +18,7 @@
 }
 
 #d3-cell1 {
-    grid grid-area: cell1;
+    grid-area: cell1;
 
 }
 
