@@ -30,7 +30,8 @@ body {
 }
 
 #column-1 {
-    margin-left:100px;
+    margin-left:40px;
+   
 }    
 
 #column-2 {
@@ -56,18 +57,21 @@ body {
 #three-columns h2,
 #three-columns h3 {
     border-bottom: 2px solid #AAAAAA;
-    padding-bottom: 8px;
+    padding-bottom: px;
 }
 
 #three-columns ul {
     list-style-type: none;
-    padding: 0px;
+    padding: 80px;
+    margin-right: 0%;
+    margin-left: 20%;
 }
 
 #three-columns ul li {
-    padding: 4px 0px;
+    padding: 0px;
     margin-right: 0px;
     margin-left: 100px;
+   
 }
 
 #three-columns ul a {
@@ -79,22 +83,76 @@ body {
     border-radius: 20%;
     margin-left:0px;
 
+
 }
 
 #nike-large img {
     padding: 0px;
     margin: 40%;
     margin-left:0%;
-    margin-right: 30%;
+    margin-right: 200%;
     border-radius: 20px;
 }
 
 .sticky-sidebar-2 h2 {
-    margin-top: 35%;
+    margin-top: 7%;
     display: inline-block;
-    width: 400px;
-   
-  
-   
+    width: 500px;
+}   
+
+.mebay {
+ color:dodgerblue;  
+ margin-left: 400px;
 }
 
+.text-container {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+ 
+}
+
+.text-container-2 {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.text-container-3 {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.text-container a {
+    font-size: 15px;
+    text-decoration: none;
+    background-color: #0741ffda;
+    color: rgb(255, 255, 255);
+    border-radius: 48px;
+    padding: 10px 181px;
+}
+
+
+.text-container-2 a {
+    font-size: 15px;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 48px;
+    border: 1px solid black;
+    padding: 8px 180px;
+
+
+}
+
+.text-container-3 a {
+    font-size: 15px;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 48px;
+    border: 1px solid black;
+    padding: 8px 160px;
+}
