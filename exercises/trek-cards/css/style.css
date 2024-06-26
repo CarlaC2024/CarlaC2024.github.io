@@ -1,0 +1,32 @@
+.card-style-1 {
+    width:400px;
+    height:400px;
+    display: flex;
+    gap: 30px;
+    background-color: #fff8dc; 
+}
+
+.card-style-1 img {
+    display: block;
+
+}
+
+.card-style-1 a {
+
+}
+
+.card a {
+    text-align: center;
+    border: 30px solid green;
+    display: inline-block;
+}
+
+
+.card.style-1 h2 {
+    margin: 24px;
+
+}
+
+.card.style-1 p {
+
+}
