@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.card-style-2 {
+        border: 20px solid white;
+        background-color: white;
+        border-radius: 50px;
+        width: 20%;
+        margin:0px 20px;
+        text-align: center;
+   
+}
+
+.card-style-2 img {
+    max-width: 350px;
+}
+
+.card-style-2 p {
+    text-align: center;
+}
+
+.animagram-header {
+
+}
+
+.profile-pic-container {
+    text-align: center;
+}
+
+.animagram-footer {
+
+}
+
+.animagram-footer i {
+
+}
+
