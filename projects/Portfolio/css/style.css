@@ -7,17 +7,13 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f9f9f9;
-    color: #333;
+    color: #000000;
 }
 
 header {
     background-color: rgba(0, 0, 0, 0.6);
     color: #fff;
     padding: 10px 0;
-}
-
-header nav ul {
-    list-style-type: none;
     text-align: right;
 }
 
@@ -38,9 +34,8 @@ header nav ul li a:hover {
     color: #c9c9c9;
 }
 
-/* Hero section */
 .hero {
-    background-image: url('images/hero-bg.jpg');
+    background-image: url(..//joanna-kosinska-mjC9apK53a8-unsplash.jpg);
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -60,20 +55,19 @@ header nav ul li a:hover {
 }
 
 .hero p {
-    font-size: 1.5em;
+    font-size: 2px;
     margin-bottom: 30px;
     font-style: italic;
 }
 
 .cta-button {
     display: inline-block;
-    background-color: #ff704d;
+    background-color: #22941a;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 30px;
     padding: 12px 24px;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
@@ -97,8 +91,7 @@ header nav ul li a:hover {
 }
 
 .card h2 {
-    font-size: 2px
-    margin-bottom: 10px;
+    font-size: 30px;
     font-family: 'Helvetica Neue', sans-serif;
 }
 
@@ -138,7 +131,7 @@ header nav ul li a:hover {
 .image {
     overflow: hidden;
     border-radius: 8px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(76, 13, 13, 0.1);
     transition: transform 0.3s ease;
 }
 
