@@ -35,7 +35,7 @@ header nav ul li a:hover {
 }
 
 .hero {
-    background-image: url(..//joanna-kosinska-mjC9apK53a8-unsplash.jpg);
+    background-image: url("..//jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpeg");
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -56,7 +56,7 @@ header nav ul li a:hover {
 
 .hero p {
     font-size: 2px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     font-style: italic;
 }
 
@@ -64,7 +64,7 @@ header nav ul li a:hover {
     display: inline-block;
     background-color: #22941a;
     color: #fff;
-    font-size: 30px;
+    font-size: 35px;
     padding: 12px 24px;
     text-decoration: none;
     border-radius: 5px;
