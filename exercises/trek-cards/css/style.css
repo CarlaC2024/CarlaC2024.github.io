@@ -4,26 +4,23 @@
 
 .card-style-1 img {
     background-color: rgb(242, 255, 240);
-    width:350px ;
-    height:300px ;
-    object-fit: cover;
-    margin-left: -13px;
+    width:100%;
+
 }
 
 .card-style-1 a {
-text-decoration: none;
-color: white;
-background-color: green;
-position: absolute bottom 0; 
-display:flex;
-width: 100%;
-padding: 25px;
-text-align: center;
-font-size: 18px;
-flex-direction: column;
-transition:
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    position: absolute bottom 0; 
+    display:flex;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    font-size: 18px;
+    flex-direction: column;
     background-color 0.5s,
-    color 0.5s
+    color 0.5s;
 }
 
 .card-style-1 a:hover {
@@ -35,14 +32,16 @@ transition:
 .card-style-1 {
     text-decoration: none;
     color: black;
-    background-color: white;
-    width: 120%;
-    padding: 10px;
+    background-color: rgb(219, 234, 221);
     text-align: center;
-    border: 3px solid white;
     text-align: left;
 }
 
 .card-style-1 h2 {
     text-align: center;
+}
+
+.card-style-1 p {
+    margin-left: 20px;
+    margin-right:20px ;
 }
