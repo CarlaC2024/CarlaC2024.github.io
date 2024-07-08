@@ -1,0 +1,56 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.hero {
+    background-image: url(..//kobby-mendez-idTwDKt2j2o-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+.gallery {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-gap: 10px;
+}
+
+.image-grid img {
+    max-width: 100%;
+    height: auto;
+}
