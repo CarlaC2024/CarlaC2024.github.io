@@ -164,3 +164,173 @@ body {
     box-shadow: 4px 4px 4px #00000033;
     transform: translateY(-4px);
 }
+
+
+
+
+#card9,
+#card10,
+#card11,
+#card12 {
+    position: relative;
+    border: 0px;
+    padding: 0px;
+}
+
+#card9 .card-front,
+#card9 .card-back {
+    border: 3px solid black;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+#card9 .card-back {
+    transform: scaleX(0);
+}
+
+#card9 .card-front {
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#card9 .card-front {
+    transition: transform 0.25s;
+}
+
+#card9 .card-back {
+    transition: transform 0.25s 0.25s;
+}
+
+#card9:hover .card-front {
+    transform: scaleX(0);
+}
+
+#card9:hover .card-back {
+    transform: scaleX(1);
+}
+
+
+
+
+
+
+
+#card10 .card-front,
+#card10 .card-back {
+    border: 3px solid black;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+#card10 .card-back {
+    transform: scaleX(0);
+}
+
+#card10 .card-front {
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#card10 .card-front {
+    transition: transform 0.25s;
+}
+
+#card10 .card-back {
+    transition: transform 0.25s 0.25s;
+}
+
+#card10:hover .card-front {
+    transform: scaleX(0);
+}
+
+#card10:hover .card-back {
+    transform: scaleX(1);
+}
+
+
+
+
+
+
+
+
+
+#card11 .card-front,
+#card11 .card-back {
+    border: 3px solid black;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+#card11 .card-back {
+    transform: scaleX(0);
+}
+
+#card11 .card-front {
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#card11 .card-front {
+    transition: transform 0.25s;
+}
+
+#card11 .card-back {
+    transition: transform 0.25s 0.25s;
+}
+
+#card11:hover .card-front {
+    transform: scaleX(0);
+}
+
+#card11:hover .card-back {
+    transform: scaleX(1);
+}
+
+
+
+
+
+#card12 .card-front,
+#card12 .card-back {
+    border: 3px solid black;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+#card12 .card-back {
+    transform: scaleX(0);
+}
+
+#card12 .card-front {
+    background-size: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#card12 .card-front {
+    transition: transform 0.25s;
+}
+
+#card12 .card-back {
+    transition: transform 0.25s 0.25s;
+}
+
+#card12:hover .card-front {
+    transform: scaleX(0);
+}
+
+#card12:hover .card-back {
+    transform: scaleX(1);
+}
