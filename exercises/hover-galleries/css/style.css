@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+
+.card1,
+.card2,
+.card3,
+.card4 {
+    flex: 100px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    border: 3px solid black;
+    padding: 12px;
+    margin-top: 36px;
+}
+
+#card1 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#card2 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#card3 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+
+}
+
+#card4 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+
+}
+
+#card1:hover {
+    background-color: rgb(6, 119, 16);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+    color: white;
+}
+
+#card2:hover {
+    background-color: rgb(241, 140, 24);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+    color: white;
+}
+
+#card3:hover {
+    background-color: rgb(212, 36, 23);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+    color: white;
+}
+
+
+#card4:hover {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+    color: white;
+}
+
+
+
+
+
+
+#cards-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#card5,
+#card6,
+#card7,
+#card8 {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+.card5,
+.card6,
+.card7,
+.card8 {
+    flex: 100px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.card5,
+.card5,
+.card7,
+.card8 a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    border: 3px solid black;
+    padding: 12px;
+    margin-top: 36px;
+}
+
+#card5:hover a {
+    background-color: aquamarine;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+
+#card6:hover a {
+    background-color: aquamarine;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+
+#card7:hover a {
+    background-color: aquamarine;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+
+#card8:hover a {
+    background-color: aquamarine;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
