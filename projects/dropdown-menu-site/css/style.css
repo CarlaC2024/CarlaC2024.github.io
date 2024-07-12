@@ -75,8 +75,9 @@ nav a {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-      color: white;
-      text-align: center;
+    color: white;
+    text-align: center;
+    padding: 600px;
   
 }
 
