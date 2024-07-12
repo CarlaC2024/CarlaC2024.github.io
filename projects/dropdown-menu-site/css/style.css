@@ -1,95 +1,101 @@
-#navbar {
-    display: flex;
-    align-items: center;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 0;
 }
 
-#navbar a {
-    display: inline-block;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    padding: 24px;
-}
-
-#navbar a:hover {
-    background: linear-gradient(to top, #ffffff, #ffffff);
-}
-
-#navbar #logo {
-    margin-right: auto;
-    font-weight: bold;
-    font-size: 36px;
-    padding-top: 13px;
-    padding-bottom: 12px;
-}
-
-.dropdown-container {
-    position: relative;
-}
-
-.dropdown-menu {
-    position: absolute;
-    opacity: 0;
-    visibility: hidden;
-    transition: 
-        opacity 0.25s,
-        visibility 0.25s;
-
-        z-index: 10; 
-}
-
-.dropdown-container:last-child .dropdown-menu {
-    right: 0px;
-}
-
-.dropdown-container:hover .dropdown-menu {
-    opacity: 1;
-    visibility: visible;
-}
-
-.dropdown-menu a {
-    background-color: rgb(204, 153, 120);
-    width: 100%;
-    min-width: 200px;
-}
-
-#navbar .dropdown-menu a:hover {
-    background: rgb(177, 235, 235);
-}
-
-
-#hero-4 {
-    background-image: url(../images/JEMA\ VIVI\ 022-02.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#hero-4 .hero-content {
-    text-align: center;
+header {
+    background: #333;
     color: white;
-    padding-top: 20vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+align-items: center;
 }
 
-#hero-4 h2 {
-    font-size: 8vw;
-    margin-bottom: 5vh;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
-#hero-4 h4 {
-    font-size: 3vw;
-    margin: 0px;
-}
-
-#hero-4 a {
-    font-size: 1.5vw;
-    display: inline-block;
-    background-color: rgb(0, 64, 138);
-    color: #333333;
+nav a {
+    color: white;
     text-decoration: none;
-    padding: 24px;
-    margin: 5vh 2vw 10vh;
+    margin: 0;
 }
 
+.navbar .logo {
+    font-size: 1.5
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.main {
+    background: url(../images/hero-image.jpg)center center/cover repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+      color: white;
+      text-align: center;
+  
+}
+
+.hero {
+    background: url(../images/hero-image.jpg) center center/cover no-repeat;
+    color: white;
+    text-align: center;
+}
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 10px solid rgb(230, 205, 203);
+}
+@media (max-width: 480px) {
+  
+    nav a,
+    .dropbtn {
+      /* display: block; */
+      text-align: center;
+}
