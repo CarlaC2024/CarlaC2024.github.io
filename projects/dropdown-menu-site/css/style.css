@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+}
+
+.navbar .logo {
+    font-size: 1.5;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background: #333;
+    color: white;
+    border: none;
+    padding:0.5
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0 8px black;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.main {
+    background: ur;
+    height: ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding: ;
+}
+
+.hero {
+    background;
+    color:white;
+    text-align: center;
+    padding: ;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    padding
+}
+
+@media (max-width: 480px) {
+    nav a,
+    .dropbtn {
+        /* display block */
+        text-align: center;
+        padding
+    }
+}
+
+.hero {
+    padding: ;
+}
