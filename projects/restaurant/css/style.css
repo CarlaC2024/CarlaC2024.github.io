@@ -67,6 +67,9 @@ header .navbar li a:hover {
     padding: 80px 0;
     text-align: center;
     height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero h2 {
@@ -106,17 +109,17 @@ header .navbar li a:hover {
 }
 
 .featured .dish-info h3 {
-    font-size: 1.5em;
+    font-size: 100%;
     margin-bottom: 10px;
 }
 
 .featured .dish-info p {
-    font-size: 1.1em;
+    font-size: 100%;
     margin-bottom: 10px;
 }
 
 .featured .dish-info .price {
-    font-size: 1.2em;
+    font-size: 100%;
     font-weight: bold;
     color: #333;
 }
@@ -134,7 +137,7 @@ footer {
     }
 
     .hero h1 {
-        font-size: 2.5em;
+        font-size: 2.5px;
     }
 
     .featured .dish {
@@ -185,17 +188,17 @@ footer {
 }
 
 .item-info h3 {
-    font-size: 1.5em;
+    font-size: 1.5px;
     margin-bottom: 10px;
 }
 
 .item-info p {
-    font-size: 1.1em;
+    font-size: 100%;
     margin-bottom: 10px;
 }
 
 .item-info .price {
-    font-size: 1.2em;
+    font-size: 1.2px;
     font-weight: bold;
     color: #333;
 }
@@ -253,17 +256,17 @@ footer {
 }
 
 .menu-item h3 {
-    font-size: 1.5em;
+    font-size: 100%;
     margin-bottom: 10px;
 }
 
 .menu-item p {
-    font-size: 1.1em;
+    font-size: 100%;
     margin-bottom: 10px;
 }
 
 .menu-item .price {
-    font-size: 1.2em;
+    font-size: 100%;
     font-weight: bold;
     color:#ffffff;
 }
